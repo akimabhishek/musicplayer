@@ -1,0 +1,61 @@
+{#<img src="{{ album.album_logo }}">#}
+{##}
+{#<h1>{{ album.album_title }}</h1>#}
+{#<h2>{{ album.artist }}</h2>#}
+{##}
+{#<ul>#}
+{#    {% for song in album.song_set.all %}#}
+{#        <li>{{ song.song_title }}</li>#}
+{#    {% endfor %}#}
+{#</ul>#}
+
+                {% extends "base.html" %}
+                    {% block content %}
+                     {% if album.song_set.all %}
+                        {% for song in album.song_set.all %}
+                            <tr>
+                                <td>{{ song.song_title }}</td>
+                                <td>
+                                    <a href={{ song.song_link }}>
+                                       <button type="button" class="btn btn-success btn-xs">
+                                            <span class="glyphicon glyphicon-play"></span>Play
+                                        </button>
+                                    </a>
+                                </td>
+
+                                <td>
+                                    <form action="{% url 'music:delete_song' album.id song.id %}" method="post" >
+                                        {% csrf_token %}
+                                        <input type="hidden" name="song_id" value="{{ song.id }}" />
+                                        <button type="submit" class="btn btn-danger btn-xs">
+                                            <span class="glyphicon glyphicon-remove"></span>&nbsp; Delete
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                         <a href="{% url 'music:create_album' %}">
+                                <button type="button" class="btn btn-success">
+                                <span class="glyphicon glyphicon-plus"></span>&nbsp; Add an Album
+                                </button>
+                         </a>
+                         <a href="{% url 'music:create_song' album.id%}">
+                            <button type="button" class="btn btn-success">
+                              <span class="glyphicon glyphicon-plus"></span>&nbsp; Add Song
+                            </button>
+                         </a>
+
+                     {% else %}
+                        Don't have any songs
+                         <a href="{% url 'music:create_album' %}">
+                                <button type="button" class="btn btn-success">
+                                <span class="glyphicon glyphicon-plus"></span>&nbsp; Add an Album
+                                </button>
+                         </a>
+                         <a href="{% url 'music:create_song' album.id%}">
+                            <button type="button" class="btn btn-success">
+                              <span class="glyphicon glyphicon-plus"></span>&nbsp; Add Song
+                            </button>
+                         </a>
+                     {% endif %}
+                    {% endblock %}

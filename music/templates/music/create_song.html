@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1>Add Song in {{ album.album_title }}</h1>
+    <form method="post">
+        {% csrf_token %}
+        <input type="hidden" name="album" value="{{ album }}">
+        {{ form.as_table }}
+        <button type="submit">Create</button>
+    </form>
+{% endblock %}

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5e7292c7-a1f9-49dd-8bd8-a940e7937037" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="5e7292c7-a1f9-49dd-8bd8-a940e7937037" name="Default" comment="" />
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,16 +24,32 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/templates/registration/login.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2125">
+=======
+            <state relative-caret-position="552">
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
               <caret line="125" column="11" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1530">
+=======
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music/templates/music/login.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
               <caret line="90" column="7" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -41,7 +61,11 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/urls.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="136">
+=======
+            <state relative-caret-position="170">
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
               <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -50,7 +74,11 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+=======
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
         <entry file="file://$PROJECT_DIR$/musicplayer/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="581">
@@ -59,6 +87,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="sample_wsgi.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample_wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,15 +96,30 @@
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+=======
       <file leaf-file-name="logged_out.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/templates/registration/logged_out.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="logged_out.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music/templates/registration/logged_out.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music/templates/music/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
             </state>
           </provider>
         </entry>
@@ -83,7 +127,11 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicplayer/urls.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="102">
+=======
+            <state relative-caret-position="119">
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
               <caret line="7" column="82" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -95,7 +143,11 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/music/views.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="782">
+=======
+            <state relative-caret-position="867">
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
               <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
@@ -118,6 +170,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="Python Script" />
@@ -127,6 +180,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+=======
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -149,8 +210,11 @@
         <option value="$PROJECT_DIR$/music/views.py" />
         <option value="$PROJECT_DIR$/musicplayer/urls.py" />
         <option value="$PROJECT_DIR$/musicplayer/settings.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/sample_wsgi.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+=======
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
       </list>
     </option>
   </component>
@@ -178,6 +242,39 @@
               <item name="musicplayer" type="b2602c69:ProjectViewProjectNode" />
               <item name="musicplayer" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="musicplayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="music" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicplayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="music" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicplayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="music" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="music" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicplayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="music" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="musicplayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="musicplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="musicplayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
           </expand>
           <select />
         </subPane>
@@ -187,7 +284,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bookmarks" />
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -257,16 +358,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
+<<<<<<< HEAD
     <editor active="true" />
+=======
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36615813" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35506243" />
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -294,10 +406,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/music/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="70" selection-start-line="105" selection-start-column="70" selection-end-line="105" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
     <entry file="file://$PROJECT_DIR$/music/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
         </state>
       </provider>
     </entry>
@@ -342,7 +470,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/music/templates/music/base.html" />
+=======
+    <entry file="file://$PROJECT_DIR$/music/templates/music/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
     <entry file="file://$PROJECT_DIR$/music/templates/music/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -361,6 +499,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
         </state>
       </provider>
     </entry>
@@ -409,6 +553,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
         </state>
       </provider>
     </entry>
@@ -457,6 +607,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
         </state>
       </provider>
     </entry>
@@ -505,6 +661,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
         </state>
       </provider>
     </entry>
@@ -567,10 +729,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/music/templates/music/base.html" />
+=======
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/templates/music/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="6" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
     <entry file="file://$PROJECT_DIR$/music/templates/music/create_song.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -592,6 +770,12 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/music/templates/music/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
     <entry file="file://$PROJECT_DIR$/music/templates/music/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -608,7 +792,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/music/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1530">
+=======
+        <state relative-caret-position="518">
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
           <caret line="90" column="7" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -618,7 +806,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/music/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="136">
+=======
+        <state relative-caret-position="170">
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -628,7 +820,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/music/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2125">
+=======
+        <state relative-caret-position="552">
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
           <caret line="125" column="11" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
         </state>
       </provider>
@@ -642,7 +838,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/music/views.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="782">
+=======
+        <state relative-caret-position="867">
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
           <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
@@ -652,7 +852,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/musicplayer/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="102">
+=======
+        <state relative-caret-position="119">
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
           <caret line="7" column="82" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -667,6 +871,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -680,5 +885,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 754b6e9c3625fd5ffd42197c525632670b23ad34
   </component>
 </project>

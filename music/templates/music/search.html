@@ -1,0 +1,14 @@
+{% if albums %}
+
+    <h2>{{ album.album_title }}</h2>
+    <h4>{{ album.artist }}</h4>
+
+    {% if songs %}
+        {% for song in songs %}
+        <tr>
+            <td>{{ song.song_title }}</td>
+            <td>{{ song.album.artist }}</td>
+        </tr>
+        {% endfor %}
+    {% endif %}
+{% endif %}

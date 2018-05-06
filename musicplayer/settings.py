@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'hjlhbz$)%9ssx^wzashni^r6^z2wd_#@z6q4!6=1p4u*s2!#lj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'social.apps.django_app.default',
+    #'social.apps.django_app.default',
+    'social_django'
 
 ]
 
@@ -50,6 +51,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+    'social_django.middleware.SocialAuthExceptionMiddleware',
 ]
 
 ROOT_URLCONF = 'musicplayer.urls'
@@ -65,6 +68,12 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect'
+                #'social_core.backends.google.GoogleOAuth2'
+               # 'social.apps.django_app.context_processors.backends',
+               # 'social.apps.django_app.context_processors.login_redirect',
             ],
         },
     },
@@ -130,11 +139,16 @@ LOGOUT_URL = reverse_lazy('logout')
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
-
-    'social.backends.google.GoogleOAuth2',
-    'social.backends.facebook.FacebookAppOAuth2',
-    'social.backends.twitter.TwitterOAuth',
+    'social_core.backends.google.GoogleOAuth2',
+    #'social.backends.facebook.FacebookOAuth2',
+    #'social.backends.google.GoogleOAuth2',
+   # 'social.backends.facebook.FacebookAppOAuth2',
+    #'social.backends.twitter.TwitterOAuth',
 )
 
 SOCIAL_AUTH_FACEBOOK_KEY = '2074632942815528'
 SOCIAL_AUTH_FACEBOOK_SECRET = '1c463ec8804d00a149d7e3d388ba640a'
+SOCIAL_AUTH_FACEBOOK_REDIRECT_IS_HTTPS = True
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '584019301829-e61gra4m9llsqpv5olo9ld5aqm56ekee.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'cievvIe4oxvQS0G-1hFSO9Oh'

@@ -14,4 +14,7 @@ urlpatterns = [
     url(r'^(?P<album_id>[0-9]+)/delete_album/$', views.delete_album, name='delete_album'),
     url(r'^create_album/$', views.create_album, name='create_album'),
     url(r'^(?P<album_id>[0-9]+)/create_song/$', views.create_song, name='create_song'),
+    #url(r'^create_album/(?P<pk>[0-9]+)/$',views.AlbumUpdate.as_view(),name='album-update'),
+    url(r'^$', views.search, name='search'),
+    #url(r'^(?P<album_id>[0-9]+)/delete_album/$', views.delete_album, name='delete_album'),
 ]

@@ -6,7 +6,15 @@
     <td>
         {% for album in all_albums %}
             <li><a href="/music/{{ album.id }}/">{{ album.album_title }}</a></li>
+        <form action="{% url 'music:delete_album' album.id %}" method="post" >
+            {% csrf_token %}
+            <input type="hidden" name="album_id" value="{{ album.id }}" />
+            <button type="submit" class="btn btn-danger btn-xs">
+                <span class="glyphicon glyphicon-remove"></span>&nbsp; Delete
+            </button>
+        </form>
         {% endfor %}
+
     </td>
 {#    <td>#}
 {#        <a href="{% url 'music:detail' album.id %}" class="btn btn-primary btn-sm" role="button">View Details</a>#}
@@ -28,5 +36,10 @@
     </a>
 {% else %}
     Don't have any albums
+    <a href="{% url 'music:create_album' %}">
+        <button type="button" class="btn btn-success">
+            <span class="glyphicon glyphicon-plus"></span>&nbsp; Add an Album
+        </button>
+    </a>
 {% endif %}
 {% endblock %}

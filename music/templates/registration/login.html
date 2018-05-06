@@ -123,5 +123,6 @@
         {% csrf_token %}
         <input type="hidden" name="next" value="{{ next }}"/>
         <p><input type="submit" value="Log-in"></p>
-        <a href="{% url "social:begin" "facebook"%}">Login with Facebook</a>
     </form>
+    <a href="{% url "social:begin" "facebook"%}?next={{ request.path }}">Login with Facebook</a>
+    <a href="{% url "social:begin" "google-oauth2"%}?next={{ request.path }}">Login with Gmail</a>

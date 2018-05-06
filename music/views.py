@@ -1,5 +1,7 @@
 from django.contrib.auth import authenticate, login
 from .models import Album,Song
+from django.db.models import Q
+from django.views.generic import UpdateView
 from django.http import HttpResponse
 from .forms import AlbumForm, SongForm, UserForm, LoginForm
 from django.shortcuts import render,get_object_or_404
@@ -94,3 +96,30 @@ def create_song(request, album_id):
         'form': form,
     }
     return render(request, 'music/create_song.html', context)
+
+# class AlbumUpdate(UpdateView):
+#     model = Album
+#     fields = ['artist', 'album_title', 'genre']
+
+def search(request):
+    if not request.user.is_authenticated:
+        return render(request, 'music/login.html')
+    else:
+        albums = Album.objects.filter(user=request.user)
+        song_results = Song.objects.all()
+        query = request.GET.get("q")
+        if query:
+            albums = albums.filter(
+                Q(album_title__icontains=query) |
+                Q(artist__icontains=query)
+            ).distinct()
+            song_results = song_results.filter(
+                Q(song_title__icontains=query)
+            ).distinct()
+            return render(request, 'music/index.html', {
+                'albums': albums,
+                'songs': song_results,
+            })
+        else:
+            return render(request, 'music/search.html', {'albums': albums})
+

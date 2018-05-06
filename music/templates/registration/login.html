@@ -123,4 +123,5 @@
         {% csrf_token %}
         <input type="hidden" name="next" value="{{ next }}"/>
         <p><input type="submit" value="Log-in"></p>
+        <a href="{% url "social:begin" "facebook"%}">Login with Facebook</a>
     </form>

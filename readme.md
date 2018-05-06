@@ -14,9 +14,9 @@ urls :
    For login : http://akimabhishek.pythonanywhere.com/music/login/,
    For Album : http://akimabhishek.pythonanywhere.com/music/
    For ALbum Create : http://akimabhishek.pythonanywhere.com/music/create_album/
-   For Song Create : http://akimabhishek.pythonanywhere.com/music/<index>/create_song
-   For Album Delete : http://akimabhishek.pythonanywhere.com/music/<index>/delete_album
-   For Song Delete : http://akimabhishek.pythonanywhere.com/music/<album_id>/create_song/<song_id>
+   For Song Create : http://akimabhishek.pythonanywhere.com/music/index/create_song
+   For Album Delete : http://akimabhishek.pythonanywhere.com/music/index/delete_album
+   For Song Delete : http://akimabhishek.pythonanywhere.com/music/album_id/create_song/song_id
    
 Social authentication used : Facebook (issue in login)
 login credential : username == admin password == admin1234 , or ,
